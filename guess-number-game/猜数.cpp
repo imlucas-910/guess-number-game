@@ -1,11 +1,10 @@
 #include <iostream>
 #include <random>
 #include <ctime>
-#define int long long
 using namespace std;
 int maxn=10;
 mt19937 rnd(time(nullptr));
-signed main()
+int main()
 {
 	cout<<"Please guess a number from 0 to "<<maxn<<"\n";
 	int sum=0,b,a=rnd()%(maxn+1);
